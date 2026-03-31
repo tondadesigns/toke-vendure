@@ -1,3 +1,6 @@
+// TEST GIT
+
+
 import {
     dummyPaymentHandler,
     DefaultJobQueuePlugin,
@@ -113,3 +116,4 @@ export const config: VendureConfig = {
         }),
     ],
 };
+
