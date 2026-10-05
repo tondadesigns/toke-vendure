@@ -18,3 +18,5 @@ RUN npm run build
 RUN npm run build:dashboard
 
 ENV NODE_ENV=production
+
+CMD ["npm", "start"]
