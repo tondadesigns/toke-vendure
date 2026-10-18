@@ -1,0 +1,19 @@
+node_modules
+dist
+admin-ui
+.git
+.env
+.env.*
+!.env.example
+
+# SQLite databases and backups
+*.sqlite
+*.sqlite-*
+*.sqlite.*
+*.db
+*.db-*
+*.db.*
+
+# Generated files
+static/assets
+static/email/test-emails
